@@ -33,7 +33,7 @@ public class addremove {
         int countAfter = itemsAfter.size();
         if(countAfter== countBefore+2)
         {
-            System.out.println("add function working properly");
+            System.out.println("add function working properly--Integrating selenium programs");
         }
         else
         {
