@@ -25,7 +25,7 @@ public static void main(String[] args){
        
             // Verify login success by checking page content
             String pageText = driver.findElement(By.tagName("p")).getText();
-            if (pageText.contains("Congratulations! You must have the proper credentials.")) {
+            if (pageText.contains("Congratulations! You must have the valid cedentials.")) {
                 System.out.println("✅ Basic authentication successful");
             } else {
                 System.out.println("❌ Basic authentication failed");
